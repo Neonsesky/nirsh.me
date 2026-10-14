@@ -117,7 +117,7 @@ p{margin:0 0 1em}
 .menu.open{clip-path:inset(0 0 0 0)}
 .menu a.big{font-size:clamp(44px,12vw,84px);letter-spacing:-.045em;line-height:1.05;font-weight:500;display:block}
 .menu .row{display:flex;gap:16px;flex-wrap:wrap;margin-top:32px}
-@media (max-width:980px){.nav__links,.nav__status{display:none}.nav__burger{display:inline-flex}.nav__cta .btn{display:none}}
+@media (max-width:980px){.nav__links,.nav__status{display:none}.nav__burger{display:inline-flex}.nav__cta .btn{display:none}.nav__cta{margin-left:auto}}
 
 /* ---------- Hero ---------- */
 .hero{position:relative;min-height:100svh;padding-top:76px;display:flex;flex-direction:column;overflow:hidden}
